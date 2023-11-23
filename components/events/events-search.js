@@ -42,7 +42,7 @@ const EventsSearch = () => {
             {monthNames.map((month) => (
               <option
                 key={month}
-                value={monthNames.findIndex((e) => e === month)}
+                value={monthNames.findIndex((e) => e === month) + 1}
               >
                 {month}
               </option>

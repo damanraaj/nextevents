@@ -12,7 +12,7 @@ const EventFilterPage = () => {
     return <p className>Loading</p>;
   }
   const year = +date[0];
-  const month = +date[1];
+  const month = +date[1] - 1;
   if (isNaN(year) || isNaN(month)) {
     return (
       <>
