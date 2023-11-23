@@ -12,5 +12,4 @@ const EventList = (props) => {
     </ul>
   );
 };
-
 export default EventList;
